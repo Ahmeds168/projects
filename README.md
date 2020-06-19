@@ -6,3 +6,4 @@ Caltech Original Prepared: This is object detection project in which we detect 1
 
 Coil 20 Unprocessed: This is also object detection project except that it detects only 5 kinds of objects and the objects are in black and white rather than colorful. First of all we divide the dataset into train, test, and validation. Then we create the sequential model with 5 dense layers with sigmoid activation function. Then we compile the model with categorical crossentropy and the metric used is accuracy. Here we have few images for each class, therefore, we apply data augmentation to generate more images so that we may have more images for training and so forth increase the accuracy.  Then we run 100 epochs(30 steps per epoch). Then we save the model as h5 file. Then we plot the training and validation accuracy as well as training and validation loss. 
 
+Same process is applied for cat and dog recognition model as well Credtit Card approval prediction model from datacamp.
